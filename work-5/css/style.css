@@ -1,0 +1,57 @@
+body {
+	background-color: #ccc;
+	font-size: 17px;
+}
+
+img {
+	height: 600px;
+	width: 100%;
+}
+
+h3 {
+	text-align: center;
+}
+
+.navigation {
+	margin-left: 850px;
+}
+
+span {
+  font-weight: bold;
+  color: #000;
+}
+
+.decoration {
+	text-decoration: underline;
+}
+
+.decoration-2 {
+	text-decoration: line-through;
+}
+
+#сhapter, #chapter-2, #chapter-3, #chapter-4, #chapter-5 {
+	border: 2px solid #fff;
+	border-radius: 8px;
+	margin: 20px 0;
+	padding: 5px 5px;
+}
+
+#chapter-2 {
+	color: #6495ED;
+}
+
+.chapter-one {
+	color: #CD5C5C;
+}
+
+.chapter-two {
+	color: #228B22;
+}
+
+.chapter-three {
+	color: #4169E0;
+}
+
+.chapter-four {
+	color: #fff;
+}
