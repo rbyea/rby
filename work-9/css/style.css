@@ -1,0 +1,18 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+}
+
+h2 {
+	margin-top: 50px;
+}
+span {
+	color: #fd58b2;
+}
+
+p {
+	font-weight: bold;
+}
+
