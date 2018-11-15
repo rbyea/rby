@@ -16,3 +16,10 @@ p {
 	font-weight: bold;
 }
 
+.center-block {
+	margin: 0 40px 0 40px;
+}
+
+.center-block-2 {
+	margin: 0 32px 0 47px;
+}
