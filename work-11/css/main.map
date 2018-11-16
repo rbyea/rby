@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/main.css",
+	"sources": [
+		"../sass/main.sass"
+	],
+	"sourcesContent": [
+		".box {\n\tdisplay: flex;\n\tflex-direction: row;\n\tjustify-content: center;\n\tmargin-top: 100px;\n\tfont: {\n\t\tsize: 36px;\n\t\tweight: 400; }\n\t&-content {\n\t\tdisplay: flex;\n\t\tflex-direction: row-reverse; } }\n"
+	],
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACJ,OAAO,EAAE,IAAK;EACd,cAAc,EAAE,GAAI;EACpB,eAAe,EAAE,MAAO;EACxB,UAAU,EAAE,KAAM;EAClB,IAAI,AAEW,CAAC,AADf,IAAI,EAAE,IAAK;EADZ,IAAI,AAEW,CAAC,AAAf,MAAM,EAAE,GAAI;CAGqB;;;AAVnC,AAAA,YAAI,CAQO;EACT,OAAO,EAAE,IAAK;EACd,cAAc,EAAE,WAAY;CAAG",
+	"names": []
+}
