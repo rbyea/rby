@@ -1,0 +1,122 @@
+body
+  margin: 0
+  padding: 0
+  font-family: sans-serif
+  background-color: #efefef
+
+.section
+  height: 1200px
+  display: flex
+  flex-direction: row
+  justify-content: center
+  flex-wrap: nowrap
+  align-items: center
+  &__block-blue
+    display: flex
+    flex-direction: row
+    width: 465px
+    height: 610px
+    background: url(../img/shadow.png) no-repeat center
+    &_title
+      position: absolute
+      padding: 25px
+    &_camera
+      display: flex
+      justify-content: center
+      align-items: flex-end
+  &__block-white
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: flex-start
+    margin-left: -40px
+    width: 540px
+    height: 700px
+    background-color: #fff
+  &__block-white
+    &_margin
+      margin-left: 80px
+    &_title
+      font-size: 34px
+      font-weight: 400
+      text-transform: uppercase
+      margin-bottom: 20px
+      color: #3a4d5c
+      &-l
+        font-size: 16px
+        font-weight: 300
+        text-transform: uppercase
+        margin-bottom: 53px
+        color: #3a4d5c
+    &_ul
+      color: #7c8d9c
+      ul
+        padding-left: 17px
+        margin-bottom: 47px
+      li
+        line-height: 28px
+        list-style-type: square
+      &-title
+        font-size: 13px
+        font-weight: 400
+        text-transform: uppercase
+        letter-spacing: 0.33px
+    &_text
+      display: flex
+      flex-direction: row
+      font-size: 11px
+      font-weight: 400
+      text-transform: uppercase
+      letter-spacing: 0.28px
+      color: #7c8d9c
+    &_instock
+      margin-right: 20px
+      margin-bottom: 85px
+    &-price
+      display: flex
+      flex-direction: row
+      color: #3a4d5c
+      &_h
+        font-size: 37px
+        font-weight: 400
+        margin-bottom: 30px
+        margin-right: 10px
+      &_l
+        font-size: 13px
+        font-weight: 400
+        padding-top: 20px
+    &-button
+      display: flex
+      flex-direction: row
+    &_blue
+      width: 200px
+      height: 45px
+      font-size: 16px
+      font-weight: 400
+      margin-right: 20px     
+      background-color: #37b0ae
+      border: 2px solid #37b0ae
+      color: #fff
+      transition: background-color .6s ease
+      cursor: pointer
+      &:hover
+        background-color: #fff
+        color: #7c8d9c
+        border: 1px solid #7c8d9c
+    &_white
+      width: 200px
+      height: 45px
+      font-size: 16px
+      font-weight: 400
+      background-color: #ffffff
+      border: 1px solid #7c8d9c
+      background-color: trasperent
+      color: #7c8d9c
+      transition: background-color .6s ease
+      cursor: pointer
+      &:hover
+        border: 2px solid #37b0ae
+        background-color: #37b0ae
+        color: #fff
+button:focus
+  outline: none
