@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #efefef;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.section__block-blue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 465px;
+  height: 610px;
+  background: url(../img/bgc.png) no-repeat center;
+  position: relative;
+}
+
+.section__block-blue_title {
+  position: absolute;
+  padding: 25px;
+}
+
+.section__block-blue_camera {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.section__block-white {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 540px;
+  height: 700px;
+  background-color: #fff;
+}
+
+.section__block-white_margin {
+  margin-left: 80px;
+}
+
+.section__block-white_title {
+  font-size: 34px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #3a4d5c;
+}
+
+.section__block-white_title-l {
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 53px;
+  color: #3a4d5c;
+}
+
+.section__block-white_ul {
+  color: #7c8d9c;
+}
+
+.section__block-white_ul ul {
+  padding-left: 17px;
+  margin-bottom: 47px;
+}
+
+.section__block-white_ul li {
+  line-height: 28px;
+  list-style-type: square;
+}
+
+.section__block-white_ul-title {
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.33px;
+}
+
+.section__block-white_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.28px;
+  color: #7c8d9c;
+}
+
+.section__block-white_instock {
+  margin-right: 20px;
+  margin-bottom: 85px;
+}
+
+.section__block-white-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #3a4d5c;
+}
+
+.section__block-white-price_h {
+  font-size: 37px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+
+.section__block-white-price_l {
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.section__block-white-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section__block-white_blue {
+  width: 200px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 20px;
+  background-color: #37b0ae;
+  border: 2px solid #37b0ae;
+  color: #fff;
+  -webkit-transition: background-color .6s ease;
+  transition: background-color .6s ease;
+  cursor: pointer;
+}
+
+.section__block-white_blue:hover {
+  background-color: #fff;
+  color: #7c8d9c;
+  border: 1px solid #7c8d9c;
+}
+
+.section__block-white_white {
+  width: 200px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #ffffff;
+  border: 1px solid #7c8d9c;
+  background-color: trasperent;
+  color: #7c8d9c;
+  -webkit-transition: background-color .6s ease;
+  transition: background-color .6s ease;
+  cursor: pointer;
+}
+
+.section__block-white_white:hover {
+  border: 2px solid #37b0ae;
+  background-color: #37b0ae;
+  color: #fff;
+}
+
+button:focus {
+  outline: none;
+}
+/*# sourceMappingURL=main.css.map */
