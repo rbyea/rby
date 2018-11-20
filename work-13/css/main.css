@@ -9,8 +9,8 @@ body {
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center
+  -ms-flex-pack: center;
+      justify-content: center
   -ms-grid-rows: 500px 515px;
       grid-template-rows: 500px 515px;
       grid-template-areas: 'red red header header' 'sky person leg mountain' 'footer footer snow blue';
