@@ -1,0 +1,103 @@
+body
+  margin: 0
+  padding: 0
+  background-color: #fff
+  font-family: sans-serif
+
+.container
+  display: grid
+  justify-content: center
+  grid-template-rows: 500px 515px 
+  grid-template-areas: 'red red header header' 'sky person leg mountain' 'footer footer snow blue'
+  &__header-text
+    grid-area: header
+    background-color: #f3f1ef
+    color: #666666
+    width: 800px
+    h3
+      font-size: 24px
+      font-weight: 700
+      text-transform: uppercase
+      padding-left: 55px
+      padding-top: 130px
+    p
+      width: 460px
+      height: 137px
+      font-size: 24px
+      font-weight: 400
+      padding-left: 55px
+  &__footer
+    &_blue
+      grid-area: blue
+      background-color: #3f729b
+      width: 399px
+      height: 515px
+    &_text
+      grid-area: footer
+      background-color: #3f729b
+      color: #f9f9f9
+      width: 800px
+      height: 515px
+      h3
+        font-size: 24px
+        font-weight: 700
+        text-transform: uppercase
+        padding-top: 144px
+        padding-left: 209px
+      p
+        font-size: 20px
+        font-weight: 400
+        letter-spacing: -0.6px
+        width: 290px
+        padding-bottom: 25px
+        padding-left: 209px
+  &__img
+    &_red
+      grid-area: red
+      img
+        width: 800px
+        height: 500px
+    &_sky
+      grid-area: sky
+      img
+        width: 400px
+        height: 515px
+    &_person
+      grid-area: person
+      img
+        width: 400px
+        height: 515px
+    &_leg
+      grid-area: leg
+      img
+        width: 400px
+        height: 515px
+    &_mountain
+      grid-area: mountain
+      img
+        width: 400px
+        height: 515px
+    &_snow
+      grid-area: snow
+      img
+        width: 400px
+        height: 515px
+.button
+  width: 280px
+  height: 56px
+  border-radius: 28px
+  border: 2px solid #ffffff
+  font-size: 18px
+  font-weight: 400
+  background-color: #3f729b
+  color: #f9f9f9
+  outline: none
+  cursor: pointer
+  transition: background-color .6s ease
+  margin-left: 209px
+  &:hover
+    background-color: darken(#3f729b, 10%)
+
+
+
+  
