@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f1ef;
+  font-family: sans-serif;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 500px 515px;
+      grid-template-rows: 500px 515px;
+      grid-template-areas: 'red red header header' 'sky person leg mountain' 'footer footer snow blue';
+}
+
+.container__header-text {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: header;
+  background-color: #f3f1ef;
+  color: #666666;
+  padding-left: 55px;
+  padding-top: 130px;
+}
+
+.container__header-text h3 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container__header-text p {
+  width: 460px;
+  height: 137px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.container__footer_blue {
+  -ms-grid-row: 3;
+  -ms-grid-column: 4;
+  grid-area: blue;
+  background-color: #3f729b;
+  height: 515px;
+}
+
+.container__footer_text {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: footer;
+  background-color: #3f729b;
+  color: #f9f9f9;
+  height: 515px;
+}
+
+.container__footer_text h3 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 144px;
+  padding-left: 209px;
+}
+
+.container__footer_text p {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.6px;
+  width: 290px;
+  padding-bottom: 25px;
+  padding-left: 209px;
+}
+
+.container__img_red {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: red;
+}
+
+.container__img_red img {
+  min-width: 100%;
+  height: 500px;
+}
+
+.container__img_sky {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: sky;
+}
+
+.container__img_sky img {
+  min-width: 100%;
+  height: 515px;
+}
+
+.container__img_person {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: person;
+}
+
+.container__img_person img {
+  min-width: 100%;
+  height: 515px;
+}
+
+.container__img_leg {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: leg;
+}
+
+.container__img_leg img {
+  min-width: 100%;
+  height: 515px;
+}
+
+.container__img_mountain {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: mountain;
+}
+
+.container__img_mountain img {
+  min-width: 100%;
+  height: 515px;
+}
+
+.container__img_snow {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: snow;
+}
+
+.container__img_snow img {
+  min-width: 100%;
+  height: 515px;
+}
+
+.button {
+  width: 280px;
+  height: 56px;
+  border-radius: 28px;
+  border: 2px solid #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #3f729b;
+  color: #f9f9f9;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: background-color .6s ease;
+  transition: background-color .6s ease;
+  margin-left: 209px;
+}
+
+.button:hover {
+  background-color: #305777;
+}
+/*# sourceMappingURL=main.css.map */
