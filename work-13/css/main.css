@@ -1,13 +1,16 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f3f1ef;
+  background-color: #fff;
   font-family: sans-serif;
 }
 
 .container {
   display: -ms-grid;
   display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center
   -ms-grid-rows: 500px 515px;
       grid-template-rows: 500px 515px;
       grid-template-areas: 'red red header header' 'sky person leg mountain' 'footer footer snow blue';
@@ -20,14 +23,15 @@ body {
   grid-area: header;
   background-color: #f3f1ef;
   color: #666666;
-  padding-left: 55px;
-  padding-top: 130px;
+  width: 800px;
 }
 
 .container__header-text h3 {
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
+  padding-left: 55px;
+  padding-top: 130px;
 }
 
 .container__header-text p {
@@ -35,6 +39,7 @@ body {
   height: 137px;
   font-size: 24px;
   font-weight: 400;
+  padding-left: 55px;
 }
 
 .container__footer_blue {
@@ -43,6 +48,7 @@ body {
   grid-area: blue;
   background-color: #3f729b;
   height: 515px;
+  width: 399px;
 }
 
 .container__footer_text {
@@ -53,6 +59,7 @@ body {
   background-color: #3f729b;
   color: #f9f9f9;
   height: 515px;
+  width: 800px;
 }
 
 .container__footer_text h3 {
@@ -80,7 +87,7 @@ body {
 }
 
 .container__img_red img {
-  min-width: 100%;
+  width: 800px;
   height: 500px;
 }
 
@@ -91,7 +98,7 @@ body {
 }
 
 .container__img_sky img {
-  min-width: 100%;
+  width: 400px;
   height: 515px;
 }
 
@@ -102,7 +109,7 @@ body {
 }
 
 .container__img_person img {
-  min-width: 100%;
+  width: 400px;
   height: 515px;
 }
 
@@ -113,7 +120,7 @@ body {
 }
 
 .container__img_leg img {
-  min-width: 100%;
+  width: 400px;
   height: 515px;
 }
 
@@ -124,7 +131,7 @@ body {
 }
 
 .container__img_mountain img {
-  min-width: 100%;
+  width: 400px;
   height: 515px;
 }
 
@@ -135,7 +142,7 @@ body {
 }
 
 .container__img_snow img {
-  min-width: 100%;
+  width: 400px;
   height: 515px;
 }
 
