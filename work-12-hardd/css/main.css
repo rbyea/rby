@@ -121,11 +121,14 @@ body {
 }
 
 @media (max-width: 1200px) {
+  .section__box {
+    margin: auto;
+  }
   .section__box-form_input {
     width: 250px;
   }
   .section__box-button {
-    margin: 17px 40px;
+    margin: 10px 38px;
   }
   .section__box-text_l {
     margin-left: 45px;
@@ -139,8 +142,12 @@ body {
   .section__title {
     font-size: 25px;
   }
+  .section__box {
+    width: 90%;
+    margin: 0 auto 40px auto;
+  }
   .section__box-img img {
-    margin-left: 320px;
+    margin-left: 280px;
   }
   .section__box-form {
     text-align: center;
@@ -149,42 +156,57 @@ body {
     width: 500px;
   }
   .section__box-button {
-    margin-left: 250px;
+    margin-left: 220px;
   }
   .section__box-text_l {
-    margin-left: 260px;
+    margin-left: 225px;
   }
 }
 
 @media (max-width: 768px) {
+  .section__box {
+    margin: 0 auto 40px auto;
+  }
   .section__box-img img {
-    margin-left: 220px;
+    margin-left: 200px;
   }
   .section__box-form_input {
     width: 400px;
   }
   .section__box-button {
-    margin-left: 150px;
+    margin-left: 130px;
   }
   .section__box-text_l {
-    margin-left: 155px;
+    margin-left: 135px;
   }
 }
 
 @media (max-width: 576px) {
+  .section__title {
+    width: 90%;
+  }
+  .section__title_m {
+    font-size: 25px;
+  }
+  .section__title_l {
+    font-size: 15px;
+  }
+  .section__box {
+    margin-right: 45px;
+  }
   .section__box-img img {
-    margin-left: 45%;
+    margin-left: 40%;
   }
   .section__box-form_input {
     margin-left: 0;
-    width: 280px;
+    width: 97%;
   }
   .section__box-button {
-    margin-left: 0;
+    margin: 10px auto 0px;
     width: 100%;
   }
   .section__box-text_l {
-    margin: 0 auto;
+    margin: 10px auto;
   }
 }
 
@@ -201,7 +223,7 @@ body {
     width: 100%;
   }
   .section__box-text_l {
-    margin: 0 auto;
+    margin: 10px auto 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
