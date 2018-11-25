@@ -183,7 +183,7 @@ body {
 
 @media (max-width: 576px) {
   .section__title {
-    width: 90%;
+    width: 100%;
   }
   .section__title_m {
     font-size: 25px;
@@ -192,7 +192,7 @@ body {
     font-size: 15px;
   }
   .section__box {
-    margin-right: 45px;
+    margin-right: 25px;
   }
   .section__box-img img {
     margin-left: 40%;
@@ -211,6 +211,9 @@ body {
 }
 
 @media (max-width: 320px) {
+  .section__box {
+    margin-right: 10px;
+  }
   .section__box-img img {
     margin-left: 35%;
   }
