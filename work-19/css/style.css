@@ -1,0 +1,76 @@
+body {
+	overflow-y: hidden;
+}
+
+textarea {
+	width: 100%;
+	resize: none;
+}
+
+.content {
+	text-align: center;
+}
+
+/*BUTTON*/
+
+button {
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+	cursor: pointer;
+	border-color: #3C93D5;
+}
+
+button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+	box-shadow: 0px 1px 0px 0px;
+}
+
+.blue_btn {
+  background-color: #55acee;
+	box-shadow: 0px 5px 0px 0px #3C93D5;
+	outline: none
+}
+.blue_btn:hover {
+	background-color: rgba(#55acee, 0.2)
+}
+
+/*END BUTTON*/
+
+/*POPUP*/
+
+.overlay_popup {
+	display:none;
+	position:fixed;
+	z-index: 999;
+	top:0;
+	right:0; 
+	left:0;
+	bottom:0;
+	background:#000; 
+	opacity:0.5;
+}
+
+.popup {
+	display: none;
+	position: relative;
+	z-index: 1000;
+	margin:0 25% 0 25%;
+  width:50%;
+}
+
+/*END POPUP*/
+
+.object{
+	width: 500px;
+	height: 500px;
+	text-align: center;
+	background-color: #eee;
+	padding: 50px 70px;
+}
