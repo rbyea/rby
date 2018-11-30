@@ -1,0 +1,345 @@
+@media only screen and (max-width : 1570px)
+  .main
+    &-image
+      img
+        transform: scale(1.2)
+
+@media only screen and (max-width : 1400px)
+  .main
+    &-image
+      img
+        transform: scale(1.1)
+
+@media only screen and (max-width : 1290px)
+  .container
+    width: 970px
+  .main
+    &-image
+      img
+        transform: scale(1)
+    &-text
+      &__title
+        font-size: 31px
+        line-height: 36px
+  .modal__window
+    width: 90%
+  .slider
+    &__item
+      img
+        max-width: 95%
+  .arrow
+    &_left
+      margin-left: -24px
+    &_right
+      transform: translateX(21px)
+@media only screen and (max-width : 1020px)
+  .slick-slider
+    max-width: 800px
+    margin-left: 10%
+    margin-right: 5%
+
+@media only screen and (max-width : 992px)
+  .container
+    width: 95%
+  .main
+    &-image
+      img
+        display: flex
+        margin: auto
+    &-wrap
+      flex-direction: column
+    &-text
+      max-width: 400px
+      margin: auto
+      &__title
+        text-align: center
+        span
+          font-size: 15px
+    &-advantages
+      margin: auto
+      &__text
+        font-size: 16px
+  .form
+    text-align: center
+    margin: auto
+  .feedback
+    background: none
+    &:before
+      background: url('../img/feedback/bg-img-feedback.jpg') no-repeat left
+      background-size: cover
+      width: 100%
+  .modal
+    flex-direction: column
+    &__input
+      display: block
+      text-align: center
+      width: 369px
+      margin-left: 5px
+      &:first-child
+        margin-top: 40px
+    &__window
+      flex-direction: column
+      width: 550px
+      overflow: auto
+      height: 100%
+    &__box
+      &-shadow
+        padding-top: 65px
+        padding-bottom: 55px
+        width: 550px
+      &-white
+        width: 550px
+        order: -1
+        &_container
+          padding-top: 50px
+        &_close
+          top: 25px
+          right: 35px
+        &_form
+          &-footer
+            margin-bottom: 56px
+
+@media only screen and (max-width : 768px)
+  .container
+    width: 95%
+  .main
+    &-wrap
+      flex-direction: column
+    &-text
+      max-width: 400px
+      margin: auto
+      &__title
+        text-align: center
+  .form
+    text-align: center
+    &__input:first-child
+      margin-right: 5px
+    &__button
+      width: 550px
+      margin: auto
+    &__footer
+      &_text
+        margin: auto
+        &-right
+          margin: auto
+  .section-title_center
+    font-size: 25px
+    line-height: 30px
+    margin-bottom: 40px
+  .portfolio
+    padding-top: 35px
+    padding-bottom: 120px
+      
+
+@media only screen and (max-width : 595px)
+  .form__footer_text-right:before
+    display: none
+
+@media only screen and (max-width : 576px)
+  .main
+    padding-top: 20px
+    padding-bottom: 30px
+    &-text
+      &__title
+        font-size: 25px
+        margin-bottom: 20px
+        span
+          margin-top: 0
+    &-advantages__text
+      font-size: 18px
+  .header
+    &-wrap
+      padding-top: 10px
+      padding-bottom: 15px
+      display: flex
+      flex-direction: column
+    &-logo
+      display: flex
+      margin: auto
+    &-text
+      margin: 0
+      &__phone
+        margin: 0
+      &__city
+        margin: 0
+    &__button
+      width: 176px
+      height: 50px
+      padding: 5px 20px
+  .feedback
+    padding-top: 20px
+  .form
+    text-align: center
+    &__input
+      width: 90%
+      text-align: center
+    &__title
+      font-size: 18px
+      text-align: center
+    &__subtitle
+      font-size: 16px
+    &__button
+      width: 90%
+      font-size: 14px
+      margin: auto
+      span
+        display: none
+    &__footer
+      text-align: center
+      display: flex
+      flex-direction: column
+      &_text
+        margin-bottom: 10px
+        width: 100%
+  .modal
+    &__window
+      width: 400px
+    &__box
+      &-shadow
+        width: 400px
+        &_container
+          width: 350px
+        &_title
+          font-size: 14px
+        &_price
+          font-size: 14px
+      &-white
+        width: 400px
+        &_close
+          top: 20px
+          right: 20px
+        &_container
+          width: 350px
+        &_form
+          &-title
+            font-size: 20px
+            padding-bottom: 10px
+          &-subtitle
+            font-size: 14px
+          &-footer
+            font-size: 12px
+            a
+              font-size: 20px
+    &__input
+      width: 330px
+      margin-left: 10px
+      font-size: 14px
+    &__button
+      width: 330px
+      font-size: 14px
+  .section-title_center
+    font-size: 23px
+    margin-bottom: 55px
+  .portfolio
+    padding-top: 50px
+    padding-bottom: 130px
+    
+@media only screen and (max-width : 402px)
+  .header-text__phone
+    font-size: 16px
+  .modal
+    &__input
+      width: 280px
+      margin-left: 5px
+      &:first-child
+        margin-top: 15px
+        margin-bottom: 10px
+    &__button
+      width: 280px
+      margin-top: 10px
+    &__window
+      width: 300px
+    &__box
+      &-white
+        width: 300px
+        &_container
+          width: 290px
+        &_form
+          &-title
+            font-size: 16px
+            line-height: 15px
+          &-subtitle
+            font-size: 14px
+            line-height: 16px
+          &-footer
+            margin-top: 20px
+            margin-bottom: 20px
+      &-shadow
+        padding-top: 20px
+        padding-bottom: 20px
+        width: 300px
+        &_content
+          img
+            margin-right: 7px
+        &_container
+          width: 290px
+        &_description
+          margin-top: 20px
+  .section-title_center
+    font-size: 20px
+    margin-bottom: 50px
+
+
+@media only screen and (max-width : 365px)
+  .header
+    padding-top: 10px
+    margin-bottom: 10px
+    &-wrap
+      display: flex
+      flex-direction: column
+    &-logo
+      margin: 0 0 13px 0
+      img
+        width: 100px
+        height: 50px
+    &-text
+      display: flex
+      flex-direction: column
+      &__contacts
+        margin-right: 0
+        text-align: center
+        margin-bottom: 13px
+      &__city
+        margin: 0
+        font-size: 14px
+        margin-bottom: 7px
+      &__phone
+        font-size: 15px
+        margin-left: 0
+    &__button
+      position: relative
+      padding: 5px
+      width: 120px
+      height: 40px
+      margin-top: 0
+      span
+        display: none
+  .main
+    &-text
+      &__title
+        font-size: 20px
+        span
+          font-size: 15px
+    &-advantages__text
+      font-size: 15px
+  .feedback
+    padding-top: 20px
+  .form
+    &__title
+      font-size: 15px
+      line-height: 25px
+      margin-bottom: 20px
+      margin-top: 0
+    &__subtitle
+      margin-bottom: 20px
+      font-size: 14px
+    &__input 
+      width: 95%
+    &__button
+      width: 95%
+    &_footer
+      &_tel
+        font-size: 16px
+  .slick-slider
+    margin-left: 6%
+    margin-right: 5%
