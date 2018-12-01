@@ -834,11 +834,13 @@ template {
   -webkit-transform: translateX(-30px);
           transform: translateX(-30px);
   margin-top: 68px;
+  outline: none;
 }
 
 .owl-next {
   width: 45px;
   height: 19px;
+  outline: none;
 }
 
 .owl-carousel__item {
@@ -1024,6 +1026,9 @@ img {
   .modal__box-white_form-footer {
     margin-bottom: 56px;
   }
+  .owl-prev {
+    margin-left: 47%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1067,6 +1072,9 @@ img {
   .portfolio {
     padding-top: 35px;
     padding-bottom: 120px;
+  }
+  .owl-prev {
+    margin-left: 46%;
   }
 }
 
@@ -1215,6 +1223,9 @@ img {
   .portfolio {
     padding-top: 50px;
     padding-bottom: 130px;
+  }
+  .owl-prev {
+    margin-left: 45%;
   }
 }
 
