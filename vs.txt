@@ -1,0 +1,41 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontFamily": "consolas",
+    "editor.fontSize": 14,
+    "files.autoSave": "onFocusChange",
+    "editor.tabSize": 2,
+    "editor.formatOnPaste": true,
+    "editor.snippetSuggestions": "top",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "emmet.triggerExpansionOnTab": true,
+    "autoprefixer.formatOnSave": true,
+    "editor.formatOnSave": true,
+    "git.defaultCloneDirectory": "",
+    "explorer.confirmDelete": false,
+    "editor.renderWhitespace": true,
+    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css/"
+        }
+    ],
+    "liveServer.settings.CustomBrowser": "chrome",
+    "editor.wordWrap": "on",
+    "editor.mouseWheelZoom": true,
+    "editor.renderIndentGuides": false,
+    "editor.renderLineHighlight": "all",
+    "liveServer.settings.ignoreFiles": [
+        ".vscode/",
+        "/.ts"
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "breadcrumbs.enabled": true,
+    "files.associations": {
+        ".pug": "jade"
+    },
+    "window.zoomLevel": 0,
+}
